@@ -1,8 +1,3 @@
-/* Backup and replace index.css in *Path to Conda Directory*
-e.g. C:\Users\***\Local\Continuum\anaconda3\share\jupyter\lab\themes\@jupyterlab\theme-dark-extension
-Restart Jupyterlab
-*/
-
 /*-----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
@@ -204,11 +199,11 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: #1d3b42;
-  --jp-layout-color1: #2b464d;
+  --jp-layout-color0: #22383d;
+  --jp-layout-color1: #28383d;
   --jp-layout-color2: #5e6c70;
   --jp-layout-color3: #5e6c70;
-  --jp-layout-color4: #264147;
+  --jp-layout-color4: #223538;
 
   /* Inverse Layout
    *
@@ -346,17 +341,17 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-keyword-color: #3ac93f;
   --jp-mirror-editor-atom-color: var(--md-blue-300);
   --jp-mirror-editor-number-color: var(--md-green-400);
-  --jp-mirror-editor-def-color: var(--md-blue-600);
+  --jp-mirror-editor-def-color: var(--md-r-600);
   --jp-mirror-editor-variable-color: var(--md-grey-300);
   --jp-mirror-editor-variable-2-color: var(--md-blue-400);
   --jp-mirror-editor-variable-3-color: var(--md-green-600);
   --jp-mirror-editor-punctuation-color: var(--md-blue-400);
-  --jp-mirror-editor-property-color: var(--md-blue-400);
-  --jp-mirror-editor-operator-color: #b655f2;
+  --jp-mirror-editor-property-color: var(--md-blue-300);
+  --jp-mirror-editor-operator-color: #be6bf2;
   --jp-mirror-editor-comment-color: #46b0b0;
-  --jp-mirror-editor-string-color: #e63939;
+  --jp-mirror-editor-string-color: #ed5555;
   --jp-mirror-editor-string-2-color: var(--md-purple-300);
-  --jp-mirror-editor-meta-color: #b655f2;
+  --jp-mirror-editor-meta-color: #be6bf2;
   --jp-mirror-editor-qualifier-color: #555;
   --jp-mirror-editor-builtin-color: var(--md-green-600);
   --jp-mirror-editor-bracket-color: #997;
