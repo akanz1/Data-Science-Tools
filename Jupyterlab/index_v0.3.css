@@ -89,10 +89,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: var(--md-grey-700);
-  --jp-border-color1: var(--md-grey-700);
-  --jp-border-color2: var(--md-grey-800);
-  --jp-border-color3: var(--md-grey-900);
+  --jp-border-color0: var(--md-amber-300);
+  --jp-border-color1: var(--md-amber-500);
+  --jp-border-color2: var(--md-amber-500);
+  --jp-border-color3: var(--md-amber-300);
   --jp-border-radius: 2px;
 
   /* UI Fonts
@@ -120,7 +120,7 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   /* Defaults use Material Design specification */
-  --jp-ui-font-color0: #7b8a8f;
+  --jp-ui-font-color0: #e6ca83;
   --jp-ui-font-color1: rgba(230, 202, 131, 0.9);
   --jp-ui-font-color2: rgba(230, 202, 131, 0.6);
   --jp-ui-font-color3: rgba(230, 202, 131, 0.4);
@@ -200,7 +200,7 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-layout-color0: #22383d;
-  --jp-layout-color1: #28383d;
+  --jp-layout-color1: #22383d;
   --jp-layout-color2: #5e6c70;
   --jp-layout-color3: #5e6c70;
   --jp-layout-color4: #223538;
@@ -213,8 +213,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-inverse-layout-color0: #e6ca83;
   --jp-inverse-layout-color1: var(--md-orange-300);
-  --jp-inverse-layout-color2: var(--md-amber-600);
-  --jp-inverse-layout-color3: var(--md-amber-200);
+  --jp-inverse-layout-color2: var(--md-amber-200); /*statusbar icons*/
+  --jp-inverse-layout-color3: var(--md-amber-200); /*sidebar icons*/
   --jp-inverse-layout-color4: var(--md-amber-100);
 
   /* Brand/accent */
@@ -315,7 +315,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-toolbar-border-color: var(--jp-border-color2);
   --jp-toolbar-micro-height: 8px;
-  --jp-toolbar-background: var(--jp-layout-color1);
+  --jp-toolbar-background: var(--jp-layout-color1); /*for the four icons above the path*/
   --jp-toolbar-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.8);
   --jp-toolbar-header-margin: 4px 4px 0px 4px;
   --jp-toolbar-active-background: var(--jp-layout-color0);
@@ -328,11 +328,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-input-background: var(--md-grey-800);
   --jp-input-border-color: var(--jp-border-color1);
   --jp-input-active-border-color: var(--jp-brand-color1);
-  --jp-input-active-box-shadow-color: rgba(19, 124, 189, 0.3); /*?*/
+  --jp-input-active-box-shadow-color: rgba(19, 124, 189, 0.3);
 
   /* General editor styles */
 
-  --jp-editor-selected-background: var(--jp-layout-color2); /*1*/
+  --jp-editor-selected-background: var(--jp-layout-color2);
   --jp-editor-selected-focused-background: rgba(230, 202, 131, 0.3);
   --jp-editor-cursor-color: var(--jp-ui-font-color0);
 
@@ -383,17 +383,15 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* scrollbar related styles. Supports every browser except Edge. */
 
-  /* colors based on JetBrain's Darcula theme */
-
   --jp-scrollbar-background-color: #3f4244;
   --jp-scrollbar-thumb-color: 88, 96, 97; /* need to specify thumb color as an RGB triplet */
 
-  --jp-scrollbar-endpad: 3px; /* the minimum gap between the thumb and the ends of a scrollbar */
+  --jp-scrollbar-endpad: 3x; /* the minimum gap between the thumb and the ends of a scrollbar */
 
   /* hacks for setting the thumb shape. These do nothing in Firefox */
 
-  --jp-scrollbar-thumb-margin: 3px; /* the space in between the sides of the thumb and the track */
-  --jp-scrollbar-thumb-radius: 9px; /* set to a large-ish value for rounded endcaps on the thumb */
+  --jp-scrollbar-thumb-margin: 2px; /* the space in between the sides of the thumb and the track */
+  --jp-scrollbar-thumb-radius: 8px; /* set to a large-ish value for rounded endcaps on the thumb */
 
   /* Icon colors that work well with light or dark backgrounds */
   --jp-icon-contrast-color0: var(--md-purple-600);
