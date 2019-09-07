@@ -1,7 +1,7 @@
-# Data-Science-Knowledge-Base
+<h2>Folders:</h2>
 
-<b>Folders:</b>
+<h3>Git</h3>
+- Git Instructions
 
-<b>Jupyterlab</b> --> Jupyterlab custom dark theme
-
-<b>Git</b> --> Git Instructions
+<h3>Jupyterlab</h3>
+- Jupyterlab custom dark theme
