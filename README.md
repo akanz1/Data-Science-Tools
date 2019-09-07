@@ -1,6 +1,6 @@
 # Data-Science-Knowledge-Base
 
-Folders: 
+<b>Folders:</b>
 
 <b>Jupyterlab</b> --> Jupyterlab custom dark theme
 
