@@ -5,4 +5,3 @@
 
 <h3>Jupyterlab</h3>
 - Jupyterlab custom dark theme
-
