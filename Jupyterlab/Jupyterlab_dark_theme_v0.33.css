@@ -39,8 +39,6 @@ all of MD as it is not optimized for dense, information rich UIs.
    * https://material-components-web.appspot.com/elevation.html
    */
 
-  /* The dark theme shadows need a bit of work, but this will probably also require work on the core layout
-   * colors used in the theme as well. */
   --jp-shadow-base-lightness: 32;
   --jp-shadow-umbra-color: rgba(
     var(--jp-shadow-base-lightness),
@@ -205,11 +203,11 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: #22383d;
-  --jp-layout-color1: #22383d;
-  --jp-layout-color2: #5e6c70;
-  --jp-layout-color3: #5e6c70;
-  --jp-layout-color4: #223538;
+  --jp-layout-color0: #22383d; /*editor background*/
+  --jp-layout-color1: #22383d; /*sidebar and header background*/
+  --jp-layout-color2: #5e6c70; /*status bar background*/
+  --jp-layout-color3: #5e6c70; /*background background*/
+  --jp-layout-color4: #223538; /*cell background*/
 
   /* Inverse Layout
    *
@@ -217,17 +215,17 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from dark to light.
    */
 
-  --jp-inverse-layout-color0: #e6ca83;
-  --jp-inverse-layout-color1: var(--md-orange-300);
+  --jp-inverse-layout-color0: #6ca83; /*file icon color*/
+  --jp-inverse-layout-color1: #FFFFFF; /*output background color*/
   --jp-inverse-layout-color2: var(--md-amber-200); /*statusbar icons*/
   --jp-inverse-layout-color3: var(--md-amber-200); /*sidebar icons*/
   --jp-inverse-layout-color4: var(--md-amber-100);
 
   /* Brand/accent */
 
-  --jp-brand-color0: #e6ca83;
-  --jp-brand-color1: var(--md-orange-300);
-  --jp-brand-color2: var(--md-amber-600);
+  --jp-brand-color0: #e6ca83; /*file icon color*/
+  --jp-brand-color1: var(--md-orange-300); /*active cell left highlighter*/
+  --jp-brand-color2: var(--md-amber-600); /*active cell frame*/
   --jp-brand-color3: var(--md-amber-200);
   --jp-brand-color4: var(--md-amber-100);
 
